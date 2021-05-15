@@ -3,11 +3,12 @@ body {
     background-image: url("https://cdn.pixabay.com/photo/2016/12/15/20/17/color-1909977_1280.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: 0;
 }
 
 #main-title {
     color: black;
-    font-size: 4em;
+    font-size: 4vw;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     position: fixed;
     top: 40%;
@@ -18,10 +19,13 @@ body {
 
 nav {
     width: 100vw;
+    background-color: #FF3800;
+    padding-bottom: 2vw;
 }
 
 ul {
     display: flex;
+    margin: 0;
 }
 
 li {
@@ -36,3 +40,34 @@ a {
     padding: 2vw;
     font-family: monospace;
 }
+
+a:hover {
+    background-color: #EC3501;
+}
+
+@media only screen and (max-width: 500px) {
+    ul{
+      flex-direction: column;
+    }
+    
+    a{
+      display: block;
+    }
+    
+    li{
+      margin: 0;
+    }
+    
+    button{
+      display: block;
+      
+      padding: 2vw;
+      font-size: 3vh;
+      background-color: #AFE0FF;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      
+      align-self: flex-start;
+    }
+  }
