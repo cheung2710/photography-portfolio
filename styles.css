@@ -1,0 +1,38 @@
+body {
+    background: gray;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/15/20/17/color-1909977_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#main-title {
+    color: black;
+    font-size: 4em;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    width: 100vw;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    font-size: 3vh;
+    margin-top: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: monospace;
+}
