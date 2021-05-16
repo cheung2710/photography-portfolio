@@ -18,9 +18,7 @@ body {
 }
 
 nav {
-    width: 100vw;
-    background-color: #FF3800;
-    padding-bottom: 2vw;
+    background-image: linear-gradient(to right, red, yellow);
 }
 
 ul {
@@ -31,7 +29,7 @@ ul {
 li {
     list-style-type: none;
     font-size: 3vh;
-    margin-top: 2vw;
+    margin: 0;
 }
 
 a {
@@ -39,35 +37,21 @@ a {
     color: black;
     padding: 2vw;
     font-family: monospace;
+    display: block;
 }
 
 a:hover {
     background-color: #EC3501;
 }
 
+button {
+  display: none;
+}
+
 @media only screen and (max-width: 500px) {
-    ul{
-      flex-direction: column;
-    }
-    
-    a{
-      display: block;
-    }
-    
-    li{
-      margin: 0;
-    }
-    
-    button{
-      display: block;
-      
-      padding: 2vw;
-      font-size: 3vh;
-      background-color: #AFE0FF;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      
-      align-self: flex-start;
-    }
+
+  button {
+    display: block;
   }
+
+}
