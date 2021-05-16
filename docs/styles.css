@@ -1,8 +1,8 @@
 body {
     background: gray;
-    background-image: url("https://cdn.pixabay.com/photo/2016/12/15/20/17/color-1909977_1280.jpg");
-    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, red, yellow);
     background-size: 100%;
+    
     margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-    background-image: linear-gradient(to right, red, yellow);
+    background-color: #FF3800;
 }
 
 ul {
@@ -52,6 +52,12 @@ button {
 
   button {
     display: block;
+
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #660000;
+    border: none;
+    outline: none;
   }
 
 }
