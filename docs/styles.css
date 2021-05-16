@@ -1,14 +1,18 @@
 body {
-    background: gray;
-    background-image: linear-gradient(90deg, red, yellow);
-    background-size: 100%;
-    
+    margin: 0;
+}
+
+#mainbody {
+    background: #4d4d4d; /* in case the background image can't be displayed */
+    background-image: url(/images/graypurple.JPG);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
     margin: 0;
 }
 
 #main-title {
-    color: black;
-    font-size: 4vw;
+    color: white;
+    font-size: 5vw;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     position: fixed;
     top: 40%;
@@ -17,19 +21,65 @@ body {
     transform: translate(-50%, -50%);
 }
 
+#pictureofme {
+    margin-left: -4vw;
+    margin-top: 3vw;
+    max-width: 400px;
+    height: auto;
+    float: left;
+}
+
+#slides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    max-width: 80%;
+}
+
+img {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    float: left;
+    margin: 1.5vh;
+    position: relative;
+    left: 8vw;
+}
+
+div {
+    margin: 2vw;
+}
+
+#alternateh1 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #bfbfbf;
+    font-size: 2vw;
+    font-family: Impact, Arial Narrow Bold, sans-serif;
+    font-style: bold;
+}
+
+
+/* navbar tutorial: https://itnext.io/how-to-create-a-responsive-navigation-bar-with-html-css-and-jquery-step-by-step-tutorial-9c780b58479f */
+
 nav {
-    background-color: #FF3800;
+    background-color: #bfbfbf;
 }
 
 ul {
     display: flex;
     margin: 0;
+    padding: 0;
 }
 
 li {
     list-style-type: none;
-    font-size: 2vh;
+    font-size: 1.5vw;
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -41,7 +91,7 @@ a {
 }
 
 a:hover {
-    background-color: #EC3501;
+    background-color: white;
 }
 
 button {
