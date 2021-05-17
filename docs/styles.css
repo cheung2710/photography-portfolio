@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: #edece2;
 }
 
 #mainbody {
@@ -21,19 +22,64 @@ body {
     transform: translate(-50%, -50%);
 }
 
+div {
+    margin: 2vw;
+}
+
+#alternateh1 {
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #404040;
+    color: white;
+    font-size: 2vw;
+    font-family: Arial Narrow Bold, sans-serif;
+    font-style: bold;
+}
+
+h2 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    margin-top: 0;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+
+hr {
+    margin-left: 2vw;
+}
+
+footer {
+    font-size: 1vw;
+    text-decoration: underline;
+}
+
 #pictureofme {
-    margin-left: -4vw;
+    display: inline;
     margin-top: 3vw;
-    max-width: 400px;
+    padding-left: 4vw;
+    max-width:  30%;
     height: auto;
-    float: left;
+    float: right;
+    position: relative;
+    left: -3vw;
 }
 
 #slides {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8vh;
+    margin-top: 5vh;
     max-width: 80%;
 }
 
@@ -45,21 +91,6 @@ img {
     margin: 1.5vh;
     position: relative;
     left: 8vw;
-}
-
-div {
-    margin: 2vw;
-}
-
-#alternateh1 {
-    padding-left: 2vw;
-    padding-top: 2vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: #bfbfbf;
-    font-size: 2vw;
-    font-family: Impact, Arial Narrow Bold, sans-serif;
-    font-style: bold;
 }
 
 
@@ -82,6 +113,10 @@ li {
     padding: 0;
 }
 
+.currentpage {
+    background-color: gray;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -96,18 +131,4 @@ a:hover {
 
 button {
   display: none;
-}
-
-@media only screen and (max-width: 500px) {
-
-  button {
-    display: block;
-
-    padding: 2vw;
-    font-size: 3vh;
-    background-color: #660000;
-    border: none;
-    outline: none;
-  }
-
 }
