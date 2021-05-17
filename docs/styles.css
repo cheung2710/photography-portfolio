@@ -123,6 +123,7 @@ a {
     padding: 2vw;
     font-family: monospace;
     display: block;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 a.highlight:hover {
