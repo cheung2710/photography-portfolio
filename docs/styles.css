@@ -3,7 +3,8 @@ body {
 }
 
 #mainbody {
-    background-image: url(https://raw.githubusercontent.com/toiletpaperrolling/photography-portfolio/main/docs/images/graypurple.JPG);
+    background: #4d4d4d; /* in case the background image can't be displayed */
+    background-image: url("https://raw.githubusercontent.com/toiletpaperrolling/photography-portfolio/main/docs/images/graypurple.JPG");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     margin: 0;
